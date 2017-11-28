@@ -1,0 +1,23 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "keywords": [
+    "patterns"
+  ],
+  "author": "Matt Born <me+code@mattborn.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/react": "^3.2.16",
+    "@storybook/storybook-deployer": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
